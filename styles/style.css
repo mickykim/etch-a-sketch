@@ -1,0 +1,30 @@
+/* Allows the body to grow as high as the content requires */
+html {
+    height: 100%; 
+}
+/* Force the body not to get any smaller than the window height */
+body {
+    min-height: 100%;
+}
+
+.container {
+    display:grid;
+    justify-items:start;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uncolored {
+    background-color: white;
+}
+
+.colored {
+    background-color: black;
+}
