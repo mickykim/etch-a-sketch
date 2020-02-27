@@ -5,13 +5,15 @@ html {
 /* Force the body not to get any smaller than the window height */
 body {
     min-height: 100%;
+    margin: 0;
 }
 
 .container {
     display:grid;
     justify-items:start;
-    width: 100vw;
-    height: 100vh;
+    width: 680px;
+    height: 680px;
+    margin: auto;
 
 }
 
@@ -23,8 +25,22 @@ body {
 
 .uncolored {
     background-color: white;
+    height: 100%;
+    width: 100%;
+    border: solid 1px black;
+
 }
 
 .colored {
     background-color: black;
+    width: 100%;
+    height: 100%;
 }
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
